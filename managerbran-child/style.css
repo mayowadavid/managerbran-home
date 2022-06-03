@@ -1,0 +1,102 @@
+/*
+Theme Name: Managerbran-child
+Theme URI:/managerbran.com
+Description: 'multi-purpose theme'
+Author: Mayowadavid
+Author URI: https://managerbran.com
+Template: managerbran
+Version: 1.0
+text Domain: managerbran
+*/
+
+
+
+/*theme customization start here*/
+
+.fa-pen {
+
+	color: #0D21A1;
+}
+
+.fa-bezier-curve {
+
+	color: #0D21A1;
+}
+
+.fa-code {
+	color: #0D21A1;
+}
+
+.fa-stack {
+	height: 2em;
+	width: 2em!important;
+	border-radius: 50%;
+	background-color: #E9E9F4;
+}
+
+@media (max-width:768px) and (max-width:768px) {
+    #card {
+	width: auto;
+	height: 290px;
+	}
+
+	#card h3 {
+	font-size: 20px;
+	height: 40px;
+	}
+}
+
+
+input {
+	font-family: Helvetica;
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 8px;
+	font-size: 20px;
+}
+
+input[type="button"]{
+	width: auto;
+	height: auto;
+	background-color: #00A3AF;
+	border-color: #00A3AF;
+	border-radius: 5px;
+	font-weight: bold;
+	color: white;
+	font-size: 20px;
+}
+
+textarea {
+	width: 100%;
+	height: 20%;
+	border-radius: 8px;
+}
+
+label {
+	color: white;
+	font-weight: bold;
+	position: relative;
+	font-size: 20px;
+}
+
+.form {
+	max-width: 85%;
+	margin: auto;
+	padding: 30px;
+}
+
+.ninja-forms-form-wrap {
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 800;
+}
+
+ .nf-form-content input[type=button]{
+    border-radius: 5px;
+ }
+ 
+ .nf-form-content .ninja-forms-field{
+     border-radius: 8px!important;
+ }
